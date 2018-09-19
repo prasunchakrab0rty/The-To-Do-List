@@ -7,14 +7,16 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { FormsComponent } from './forms/forms.component';
-import { ReactiveformsComponent } from './reactiveforms/reactiveforms.component'
+import { ReactiveformsComponent } from './reactiveforms/reactiveforms.component';
+import { FrmbldrComponent } from './frmbldr/frmbldr.component'
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
     FormsComponent,
-    ReactiveformsComponent
+    ReactiveformsComponent,
+    FrmbldrComponent
   ],
   imports: [
     BrowserModule,
